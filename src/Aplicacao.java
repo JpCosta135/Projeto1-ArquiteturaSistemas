@@ -1,6 +1,6 @@
 void main() {
 
-    Inventario inventario = new Inventario();
+    Repositorio inventario = new Repositorio();
 
 
 

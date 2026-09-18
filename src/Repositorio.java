@@ -5,11 +5,11 @@ import Modelo.Usuario;
 
 import java.util.Hashtable;
 
-public class Inventario {
+public class Repositorio {
     private Hashtable <String, Projetor> inventario;
     private Hashtable <Integer, Usuario> usuarios;
 
-    public Inventario () {
+    public Repositorio() {
         inventario = new Hashtable<>();
         Projetor p1 = new Projetor("Epson PowerLite X49","PAT-100231",true);
         inventario.put(p1.getCodigo(),p1);
