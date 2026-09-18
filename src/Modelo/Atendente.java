@@ -7,6 +7,16 @@ public class Atendente extends Usuario{
         super(nome,matricula,senha);
     }
 
+    @Override
+    public boolean autenticar(String senha) {
+        if (senha.equals(this.getSenha())) {
+            System.out.println("Atendente autenticado com sucesso");
+            return true;
+        } else {
+            System.out.println("Atendente não pode ser autenticado");
+            return false;
+        }
+    }
 
 
 

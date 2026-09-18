@@ -7,6 +7,16 @@ public class Professor extends Usuario {
         super(nome,matricula,senha);
     }
 
+    @Override
+    public boolean autenticar(String senha) {
+        if (senha.equals(this.getSenha())) {
+            System.out.println("Professor autenticado com sucesso");
+            return true;
+        } else {
+            System.out.println("Professor não pode ser autenticado");
+            return false;
+        }
+    }
 
 
 
