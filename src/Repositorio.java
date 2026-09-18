@@ -13,10 +13,10 @@ public class Repositorio {
         inventario.put(p3.getCodigo(),p3);
     }
 
-    public Projetor getProjetor(int id){
+    public Projetor getProjetor(String codigo){
         Projetor projetor = null;
-       projetor = inventario.get(id);
-       return projetor;
+        projetor = inventario.get(codigo);
+        return projetor;
 
     }
 
