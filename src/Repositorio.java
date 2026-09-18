@@ -1,8 +1,7 @@
-import java.util.ArrayList;
 import java.util.Hashtable;
 
 public class Repositorio {
-    private Hashtable <String,Projetor> inventario;
+    private Hashtable <String, Projetor> inventario;
 
     public Repositorio () {
         inventario = new Hashtable<>();
