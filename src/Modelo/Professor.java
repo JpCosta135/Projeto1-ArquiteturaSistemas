@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Professor {
     private String nome;
     private int matricula;

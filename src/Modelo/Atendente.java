@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Atendente {
     private String nome;
     private int matricula;

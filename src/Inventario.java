@@ -1,3 +1,5 @@
+import Modelo.Projetor;
+
 import java.util.Hashtable;
 
 public class Inventario {
