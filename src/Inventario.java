@@ -17,6 +17,7 @@ public class Inventario {
         inventario.put(p2.getCodigo(),p2);
         Projetor p3 = new Projetor("ViewSonic PA503S","PAT-100235",true);
         inventario.put(p3.getCodigo(),p3);
+        Projetor p4 = new Projetor("Epson PowerLite X05","PAT-100237",false);
 
         usuarios = new Hashtable<>();
         Usuario u1 = new Professor("Jose Almeida",209745,"dfh435");
