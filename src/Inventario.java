@@ -1,9 +1,9 @@
 import java.util.Hashtable;
 
-public class Repositorio {
+public class Inventario {
     private Hashtable <String, Projetor> inventario;
 
-    public Repositorio () {
+    public Inventario () {
         inventario = new Hashtable<>();
         Projetor p1 = new Projetor("Epson PowerLite X49","PAT-100231",true);
         inventario.put(p1.getCodigo(),p1);
