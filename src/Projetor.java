@@ -1,9 +1,9 @@
 public class Projetor {
     private String nome;
-    private int codigo;
+    private String codigo;
     private boolean disponivel;
 
-    public Projetor(String nome, int codigo, boolean disponivel) {
+    public Projetor(String nome, String codigo, boolean disponivel) {
         this.nome = nome;
         this.codigo = codigo;
         this.disponivel = disponivel;
@@ -14,10 +14,10 @@ public class Projetor {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public int getCodigo() {
+    public String getCodigo() {
         return codigo;
     }
-    public void setCodigo(int codigo) {
+    public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
     public boolean isDisponivel() {
