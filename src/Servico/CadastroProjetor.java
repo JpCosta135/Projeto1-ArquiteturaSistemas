@@ -1,7 +1,5 @@
 package Servico;
-
 import Modelo.Projetor;
-
 import java.util.Scanner;
 
 public class CadastroProjetor {

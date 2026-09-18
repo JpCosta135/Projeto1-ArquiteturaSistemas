@@ -28,22 +28,16 @@ public class Repositorio {
         usuarios.put(u3.getMatricula(),u3);
         Usuario u4 = new Atendente("Maria Campos",215468,"5435nr");
         usuarios.put(u4.getMatricula(),u4);
-
     }
-
     public Projetor getProjetor(String codigo){
         Projetor projetor;
         projetor = inventario.get(codigo);
         return projetor;
-
     }
     public Usuario getUsuario(int matricula ){
         Usuario usuario;
         usuario =  usuarios.get(matricula);
         return usuario;
-
     }
-
-
 
 }
