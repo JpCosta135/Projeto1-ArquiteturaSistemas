@@ -1,9 +1,11 @@
 import Modelo.Projetor;
+import Modelo.Usuario;
 
 import java.util.Hashtable;
 
 public class Inventario {
     private Hashtable <String, Projetor> inventario;
+    private Hashtable <Integer, Usuario> usuarios;
 
     public Inventario () {
         inventario = new Hashtable<>();
@@ -13,12 +15,20 @@ public class Inventario {
         inventario.put(p2.getCodigo(),p2);
         Projetor p3 = new Projetor("ViewSonic PA503S","PAT-100235",true);
         inventario.put(p3.getCodigo(),p3);
+
+        usuarios = new Hashtable<>();
     }
 
     public Projetor getProjetor(String codigo){
         Projetor projetor = null;
         projetor = inventario.get(codigo);
         return projetor;
+
+    }
+    public Usuario getUsuario(int matricula ){
+        Usuario usuario = null;
+        usuario =  usuarios.get(matricula);
+        return usuario;
 
     }
 
