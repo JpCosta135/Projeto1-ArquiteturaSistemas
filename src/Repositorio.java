@@ -32,13 +32,13 @@ public class Repositorio {
     }
 
     public Projetor getProjetor(String codigo){
-        Projetor projetor = null;
+        Projetor projetor;
         projetor = inventario.get(codigo);
         return projetor;
 
     }
     public Usuario getUsuario(int matricula ){
-        Usuario usuario = null;
+        Usuario usuario;
         usuario =  usuarios.get(matricula);
         return usuario;
 
