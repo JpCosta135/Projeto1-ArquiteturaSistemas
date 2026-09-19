@@ -11,8 +11,6 @@ public class Repositorio {
     private Hashtable <String, Projetor> inventario;
     private Hashtable <Integer, Usuario> usuarios;
 
-
-
     public Repositorio() {
         inventario = new Hashtable<>();
         Projetor p1 = new Projetor("Epson PowerLite X49","PAT-100231",true);
@@ -39,21 +37,21 @@ public class Repositorio {
         projetor = inventario.get(codigo);
         return projetor;
     }
-
     public Usuario getUsuario(int matricula ){
         Usuario usuario;
         usuario =  usuarios.get(matricula);
         return usuario;
     }
-
     public void setProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
         inventario.get(codigo).setNome(nome);
         inventario.get(codigo).setDisponivel(estado);
         inventario.get(codigo).setCodigo(codigoNovo);
     }
-
-    public void removeProjetor(String codigo) {
+    public void removerProjetor(String codigo) {
         inventario.remove(codigo);
+    }
+    public void removerUsuario(String matricula) {
+        usuarios.remove(matricula);
     }
 
 }

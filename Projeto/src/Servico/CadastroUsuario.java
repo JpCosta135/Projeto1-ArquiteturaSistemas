@@ -1,26 +1,30 @@
 package Servico;
 
 import Modelo.Usuario;
+import Repositorio.Repositorio;
 
 public class CadastroUsuario {
+    private Repositorio repositorio;
 
-
+    public CadastroUsuario(Repositorio repositorio) {
+        this.repositorio = repositorio;
+    }
 
     public static void efetuarCadastro(byte tipo,String nome,int matricula,String senha){
         FactoryUsuario fabrica = new FactoryUsuario();
         Usuario usuario = fabrica.createUsuario(tipo,nome,matricula,senha);
     }
 
-    public static void removerUsuario(String matricula){
-
+    public void removerUsuario(String matricula){
+        repositorio.removerUsuario(matricula);
      }
 
-    public static void atualizarUsuario () {
+    public void atualizarUsuario () {
 
     }
 
-    public static void lerUsuario () {
-
+    public void lerUsuario (int matricula) {
+        repositorio.getUsuario(matricula);
     }
 
 

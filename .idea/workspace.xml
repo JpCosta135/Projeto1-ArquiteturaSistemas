@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração dos métodos de Empréstimo,Devolução e Permutação">
-      <change afterPath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorAtendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorAtendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/FactoryUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Servico/FactoryUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Reorganização por pacotes e adição do CRUD de usuários">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +123,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="método cadastrarProjetor adicionado na classe CadastroProjetor" />
     <MESSAGE value="refatoração do método realizarEmprestimo" />
     <MESSAGE value="refatoração dos dados dos usuários" />
     <MESSAGE value="Reorganização das classes e pacotes" />
@@ -157,7 +147,8 @@
     <MESSAGE value="refatoração da classe App" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Permutação e Devolução" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Devolução e Permutação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração dos métodos de Empréstimo,Devolução e Permutação" />
+    <MESSAGE value="Reorganização por pacotes e adição do CRUD de usuários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganização por pacotes e adição do CRUD de usuários" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

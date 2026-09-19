@@ -59,7 +59,7 @@ public class Atendente extends Usuario {
     }
 
     public void removerProjetor(String codigo) {
-        repositorio.removeProjetor(codigo);
+        repositorio.removerProjetor(codigo);
     }
 
     public void atualizarProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
