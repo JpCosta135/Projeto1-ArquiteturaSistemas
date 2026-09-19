@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração do método atualizarUsuario">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/AppRepositorio/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/AppRepositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorAtendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorAtendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Reorganização dos pacotes">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +124,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refatoração das classes Aplicacao e Controlador" />
     <MESSAGE value="elaboração do metodo realizar empréstimo" />
     <MESSAGE value="adição do método realizarDevolucao" />
     <MESSAGE value="refatoração da classe Professor" />
@@ -153,7 +148,8 @@
     <MESSAGE value="Reorganização das pastas" />
     <MESSAGE value="Refatoração" />
     <MESSAGE value="Refatoração do método atualizarUsuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração do método atualizarUsuario" />
+    <MESSAGE value="Reorganização dos pacotes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganização dos pacotes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
