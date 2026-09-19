@@ -1,6 +1,6 @@
 package Modelo;
 
-import Classes.FactoryUsuario;
+import Sistema.FactoryUsuario;
 
 public abstract class Usuario {
     private String nome;
@@ -33,7 +33,7 @@ public abstract class Usuario {
 
     public abstract boolean autenticar(String senha);
 
-    public void efetuarCadastro(int tipo,String nome,int matricula,String senha){
+    public void efetuarCadastro(byte tipo,String nome,int matricula,String senha){
         FactoryUsuario fabrica = new FactoryUsuario();
         Usuario u = fabrica.createUsuario(tipo,nome,matricula,senha);
     }

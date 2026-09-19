@@ -1,10 +1,11 @@
-package Classes;
+package Sistema;
 
 import Modelo.Atendente;
 import Modelo.Professor;
 import Modelo.Projetor;
 
 public class Controlador {
+    private Repositorio repositorio;
 
 
 
