@@ -17,22 +17,27 @@ public class ControladorAtendente {
     public void realizarEmprestimo(Professor professor, Projetor  projetor){
         atendente.realizarEmprestimo(professor, projetor);
     }
-
     public void realizarDevolucao(Professor professor, Projetor projetor){
         atendente.realizarDevolucao(professor, projetor);
     }
-
-    public void realizarCadastroProjetor(){
-        atendente.cadastrarProjetor();
-    }
-
-    public void atualizarProjetor(String codigo,String nome,String codigoNovo,boolean estado) {
-        atendente.atualizarProjetor(codigo,nome,codigoNovo,estado);
-    }
-
     public void realizarAutenticacao(String senha) {
         atendente.autenticar(senha);
     }
+
+    public void realizarCadastroProjetor(Projetor p){
+        atendente.cadastrarProjetor(p);
+    }
+    public void atualizarProjetor(String codigo,String nome,String codigoNovo,boolean estado) {
+        atendente.atualizarProjetor(codigo,nome,codigoNovo,estado);
+    }
+    public void removerProjetor(String codigo){
+        atendente.removerProjetor(codigo);
+    }
+    public Projetor lerProjetor(String codigo) {
+        return atendente.getProjetor(codigo);
+    }
+
+
 
 
 

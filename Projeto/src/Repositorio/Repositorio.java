@@ -1,10 +1,8 @@
 package Repositorio;
-
 import Modelo.Atendente;
 import Modelo.Professor;
 import Modelo.Projetor;
 import Modelo.Usuario;
-
 import java.util.Hashtable;
 
 public class Repositorio {
@@ -32,32 +30,34 @@ public class Repositorio {
         usuarios.put(u4.getMatricula(),u4);
     }
 
+    public void adicionarProjetor(Projetor p) {
+        inventario.put(p.getCodigo(),p);
+    }
     public Projetor getProjetor(String codigo){
         Projetor projetor;
         projetor = inventario.get(codigo);
         return projetor;
     }
-
-    public Usuario getUsuario(int matricula ){
-        Usuario usuario;
-        usuario =  usuarios.get(matricula);
-        return usuario;
-    }
-
     public void setProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
         inventario.get(codigo).setNome(nome);
         inventario.get(codigo).setDisponivel(estado);
         inventario.get(codigo).setCodigo(codigoNovo);
     }
-
     public void removerProjetor(String codigo) {
         inventario.remove(codigo);
     }
 
+    public void adicionarUsuario(Usuario u) {
+        usuarios.put(u.getMatricula(),u);
+    }
+    public Usuario getUsuario(int matricula ) {
+        Usuario usuario;
+        usuario = usuarios.get(matricula);
+        return usuario;
+    }
     public void removerUsuario(int matricula) {
         usuarios.remove(matricula);
     }
-
     public void setUsuario(int matricula,String nome, int matriculaNova,String senha) {
         usuarios.get(matricula).setNome(nome);
         usuarios.get(matricula).setSenha(senha);
