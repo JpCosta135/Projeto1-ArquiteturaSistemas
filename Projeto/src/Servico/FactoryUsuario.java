@@ -7,7 +7,7 @@ import Modelo.Usuario;
 public class FactoryUsuario {
 
     public Usuario createUsuario(byte tipo, String nome, int matricula, String senha) {
-        if (tipo != 1 || tipo != 2 ) {
+        if (tipo != 1 && tipo != 2 ) {
             System.out.println("Tipo invalido, informe o valor 1 ou 2");
         }
          Usuario usuario = null;
