@@ -14,15 +14,12 @@ public class CadastroUsuario {
         FactoryUsuario fabrica = new FactoryUsuario();
         Usuario usuario = fabrica.createUsuario(tipo,nome,matricula,senha);
     }
-
     public void removerUsuario(String matricula){
         repositorio.removerUsuario(matricula);
      }
-
     public void atualizarUsuario (int matricula,String nome,int matriculaNova,String senha) {
         repositorio.setUsuario(matricula,nome,matriculaNova,senha);
     }
-
     public void lerUsuario (int matricula) {
         repositorio.getUsuario(matricula);
     }
