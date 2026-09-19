@@ -1,11 +1,9 @@
-import Sistema.Controlador;
+import Sistema.ControladorAtendente;
 import Sistema.Repositorio;
 
 void main() {
 
     Repositorio repositorio = new Repositorio();
-    Controlador controlador = new  Controlador(repositorio);
-
 
 
 
