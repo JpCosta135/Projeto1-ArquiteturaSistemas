@@ -31,7 +31,12 @@ public abstract class Usuario {
 
     public abstract boolean autenticar(String senha);
 
-
-
-
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", matricula=" + matricula +
+                ", senha='" + senha + '\'' +
+                '}';
+    }
 }

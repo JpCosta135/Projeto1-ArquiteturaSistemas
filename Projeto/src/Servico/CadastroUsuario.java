@@ -13,6 +13,7 @@ public class CadastroUsuario {
     public void efetuarCadastro(byte tipo, String nome, int matricula, String senha,Repositorio repositorio) {
         FactoryUsuario fabrica = new FactoryUsuario();
         Usuario usuario = fabrica.createUsuario(tipo, nome, matricula, senha, repositorio);
+        repositorio.adicionarUsuario(usuario);
     }
 
     public void removerUsuario(int matricula) {

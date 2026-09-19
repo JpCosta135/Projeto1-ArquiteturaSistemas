@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração da classe Aplicação" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +130,6 @@
     <MESSAGE value="Elaboração das classes ControladorUsuario e ControladorAtendente" />
     <MESSAGE value="Elaboração da classe app e adição do metodo removerProjetor na classe Atendente" />
     <MESSAGE value="adicionado metodo permutarProjetor" />
-    <MESSAGE value="-" />
     <MESSAGE value="refatoração do metodo realizarPermutacao" />
     <MESSAGE value="Refatoração da classe Atendente" />
     <MESSAGE value="Elaboração do CRUD de projetores na classe Atendente" />
@@ -146,7 +150,8 @@
     <MESSAGE value="Refatoração dos métodos CRUD" />
     <MESSAGE value="Adicionado CRUD de projetores na classe Principal(App)" />
     <MESSAGE value="Refatoração da classe Aplicação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração da classe Aplicação" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
