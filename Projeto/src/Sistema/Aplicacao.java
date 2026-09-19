@@ -10,7 +10,7 @@ void main() {
     ControladorAtendente c1 = new ControladorAtendente(repositorio,(Atendente)repositorio.getUsuario(2345786));
     ControladorUsuario c2 = new ControladorUsuario(repositorio,repositorio.getUsuario(2097453));
     c1.realizarEmprestimo((Professor)(repositorio.getUsuario(2097453)),repositorio.getProjetor("PAT-100235"));
-
+    c2.realizarAutenticacao("dfh435");
 
 
 
