@@ -20,13 +20,13 @@ public class Repositorio {
         Projetor p4 = new Projetor("Epson PowerLite X05","PAT-100237",false);
 
         usuarios = new Hashtable<>();
-        Usuario u1 = new Professor("Jose Almeida",209745,"dfh435");
+        Usuario u1 = new Professor("Jose Almeida",2097453,"dfh435");
         usuarios.put(u1.getMatricula(),u1);
-        Usuario u2 = new Professor("Joao Silva",223456,"ebt325");
+        Usuario u2 = new Professor("Joao Silva",2234566,"ebt325");
         usuarios.put(u2.getMatricula(),u2);
-        Usuario u3 = new Atendente("Joaquim Bezerra",234576,"wteb43");
+        Usuario u3 = new Atendente("Joaquim Bezerra",2345786,"wteb43");
         usuarios.put(u3.getMatricula(),u3);
-        Usuario u4 = new Atendente("Maria Campos",215468,"5435nr");
+        Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr");
         usuarios.put(u4.getMatricula(),u4);
     }
     public Projetor getProjetor(String codigo){
