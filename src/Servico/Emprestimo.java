@@ -7,7 +7,7 @@ import Modelo.Projetor;
 public class Emprestimo {
 
        public boolean realizarEmprestimo(Professor p, Atendente atendente, Projetor projetor)  {
-           return true;
+           return atendente.realizarEmprestimo(p,projetor);
        }
 
 

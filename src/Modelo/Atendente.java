@@ -18,6 +18,10 @@ public class Atendente extends Usuario{
         }
     }
 
+    public boolean realizarEmprestimo(Professor p, Projetor projetor)  {
+        return true;
+    }
+
 
 
 }
