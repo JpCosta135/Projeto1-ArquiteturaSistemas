@@ -11,6 +11,16 @@ public class ControladorUsuario {
         this.usuario = usuario;
     }
 
+    public void realizarCadastro(byte tipo,String nome, int matricula,String senha) {
+        usuario.efetuarCadastro(tipo,nome,matricula,senha);
+    }
+
+    public void realizarAutenticacao(String senha) {
+        usuario.autenticar(senha);
+    }
+
+
+
 
 
 

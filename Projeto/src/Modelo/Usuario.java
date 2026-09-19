@@ -35,7 +35,7 @@ public abstract class Usuario {
 
     public void efetuarCadastro(byte tipo,String nome,int matricula,String senha){
         FactoryUsuario fabrica = new FactoryUsuario();
-        Usuario u = fabrica.createUsuario(tipo,nome,matricula,senha);
+        Usuario usuario = fabrica.createUsuario(tipo,nome,matricula,senha);
     }
 
 
