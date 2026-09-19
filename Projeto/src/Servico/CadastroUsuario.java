@@ -19,8 +19,8 @@ public class CadastroUsuario {
         repositorio.removerUsuario(matricula);
      }
 
-    public void atualizarUsuario () {
-
+    public void atualizarUsuario (int matricula,String nome,int matriculaNova,String senha) {
+        repositorio.setUsuario(matricula,nome,matriculaNova,senha);
     }
 
     public void lerUsuario (int matricula) {

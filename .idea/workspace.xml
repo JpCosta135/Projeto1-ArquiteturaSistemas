@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Reorganização por pacotes e adição do CRUD de usuários">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Elaboração do CRUD de usuários">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +49,7 @@
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
@@ -123,7 +124,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refatoração do método realizarEmprestimo" />
     <MESSAGE value="refatoração dos dados dos usuários" />
     <MESSAGE value="Reorganização das classes e pacotes" />
     <MESSAGE value="Reorganização das classes" />
@@ -148,7 +148,8 @@
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Permutação e Devolução" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Devolução e Permutação" />
     <MESSAGE value="Reorganização por pacotes e adição do CRUD de usuários" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganização por pacotes e adição do CRUD de usuários" />
+    <MESSAGE value="Elaboração do CRUD de usuários" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elaboração do CRUD de usuários" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
