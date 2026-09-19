@@ -24,5 +24,15 @@ public class Professor extends Usuario {
             return false;
         }
     }
+
+    public boolean permutarProjetor(Professor p) {
+        if (this.projetor != null) {
+            p.setProjetor(this.projetor);
+            setProjetor(null);
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
 
