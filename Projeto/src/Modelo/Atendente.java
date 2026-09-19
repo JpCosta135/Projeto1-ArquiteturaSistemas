@@ -7,9 +7,9 @@ import java.util.Scanner;
 public class Atendente extends Usuario {
     private Repositorio repositorio;
 
-    public Atendente(String nome, int matricula, String senha) {
+    public Atendente(String nome, int matricula, String senha, Repositorio repositorio) {
         super(nome,matricula,senha);
-        this.repositorio = null;
+        this.repositorio = repositorio;
     }
 
     @Override

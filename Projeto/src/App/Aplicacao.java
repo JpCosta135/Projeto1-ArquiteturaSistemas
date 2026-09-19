@@ -18,7 +18,7 @@ void main() {
     c1.realizarDevolucao((Professor)(repositorio.getUsuario(2234566)),repositorio.getProjetor("PAT-100235"));
     c2.realizarAutenticacao("ebt325");
 
-    c3.efetuarCadastro((byte)1,"Armando Alves",1890298,"dfjo23");
+    c3.efetuarCadastro((byte)1,"Armando Alves",1890298,"dfjo23",repositorio);
     System.out.println(c3.lerUsuario(1890298));
     c3.atualizarUsuario(1890298,"Armando Alves",1890298,"3737hr");
 

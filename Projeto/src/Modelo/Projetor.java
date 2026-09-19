@@ -29,6 +29,8 @@ public class Projetor {
         this.disponivel = disponivel;
     }
 
-
+    public String toString() {
+        return "nome:"+ nome + " codigo:" + codigo + " disponivel:" + disponivel;
+    }
 
 }

@@ -10,9 +10,9 @@ public class CadastroUsuario {
         this.repositorio = repositorio;
     }
 
-    public void efetuarCadastro(byte tipo, String nome, int matricula, String senha) {
+    public void efetuarCadastro(byte tipo, String nome, int matricula, String senha,Repositorio repositorio) {
         FactoryUsuario fabrica = new FactoryUsuario();
-        Usuario usuario = fabrica.createUsuario(tipo, nome, matricula, senha);
+        Usuario usuario = fabrica.createUsuario(tipo, nome, matricula, senha, repositorio);
     }
 
     public void removerUsuario(int matricula) {
