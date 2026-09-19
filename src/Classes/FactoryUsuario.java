@@ -1,4 +1,4 @@
-package Servico;
+package Classes;
 
 import Modelo.Atendente;
 import Modelo.Professor;
