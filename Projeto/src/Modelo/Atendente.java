@@ -1,6 +1,6 @@
 package Modelo;
 
-import Repositorio.Repositorio;
+import AppRepositorio.Repositorio;
 
 import java.util.Scanner;
 

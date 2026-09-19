@@ -3,7 +3,7 @@ package Controlador;
 import Modelo.Professor;
 import Modelo.Projetor;
 import Modelo.Usuario;
-import Repositorio.Repositorio;
+import AppRepositorio.Repositorio;
 import Servico.CadastroUsuario;
 
 public class ControladorUsuario {

@@ -1,7 +1,7 @@
 package Servico;
 
 import Modelo.Usuario;
-import Repositorio.Repositorio;
+import AppRepositorio.Repositorio;
 
 public class CadastroUsuario {
     private Repositorio repositorio;

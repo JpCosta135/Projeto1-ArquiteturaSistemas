@@ -1,4 +1,4 @@
-package Repositorio;
+package AppRepositorio;
 
 import Modelo.Atendente;
 import Modelo.Professor;
