@@ -25,6 +25,10 @@ public class ControladorAtendente {
         atendente.cadastrarProjetor();
     }
 
+    public void atualizarProjetor() {
+
+     }
+
 
 
 

@@ -44,4 +44,10 @@ public class Repositorio {
         return usuario;
     }
 
+    public void setProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
+        inventario.get(codigo).setNome(nome);
+        inventario.get(codigo).setDisponivel(estado);
+        inventario.get(codigo).setCodigo(codigoNovo);
+    }
+
 }
