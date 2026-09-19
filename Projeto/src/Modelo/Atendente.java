@@ -50,4 +50,8 @@ public class Atendente extends Usuario {
         Projetor p = new Projetor(nome,codigo,disponivel);
     }
 
+    public void removerProjetor(String codigo) {
+
+    }
+
 }

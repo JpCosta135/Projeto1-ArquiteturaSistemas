@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="elaboração das classes ControladorAtendente e ControladorUsuario">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorAtendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorAtendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Elaboração das classes ControladorUsuario e ControladorAtendente">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/Aplicacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/costa/IdeaProjects/Projeto1-ArquiteturaSistemas/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
@@ -109,7 +109,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adicionado as classes Controlador,Serviço e FactoryRegistro" />
     <MESSAGE value="Refatoração da classe Repositorio" />
     <MESSAGE value="Exclusão da classe Factory e Controlador renomeado" />
     <MESSAGE value="Adição das classes de Cadastro para usuários e projetores, adição da classe controladora e de realizar emprestimo" />
@@ -134,7 +133,8 @@
     <MESSAGE value="refatoração da classe Professor" />
     <MESSAGE value="elaboração da classe ControladorAtendente" />
     <MESSAGE value="elaboração das classes ControladorAtendente e ControladorUsuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="elaboração das classes ControladorAtendente e ControladorUsuario" />
+    <MESSAGE value="Elaboração das classes ControladorUsuario e ControladorAtendente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Elaboração das classes ControladorUsuario e ControladorAtendente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
