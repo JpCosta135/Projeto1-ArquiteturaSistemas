@@ -25,8 +25,10 @@ public class Atendente extends Usuario {
         if (projetor.isDisponivel()) {
             projetor.setDisponivel(false);
             p.setProjetor(projetor);
+            System.out.println("Emprestimo realizado com sucesso!");
             return true;
         }  else {
+            System.out.println("Emprestimo não obteve êxito.");
             return false;
         }
     }
@@ -35,8 +37,10 @@ public class Atendente extends Usuario {
         if (projetor.isDisponivel() == false) {
             projetor.setDisponivel(true);
             p.setProjetor(null);
+            System.out.println("Devolução realizada com sucesso!");
             return true;
         } else {
+            System.out.println("Devolução não obteve êxito.");
             return false;
         }
     }
