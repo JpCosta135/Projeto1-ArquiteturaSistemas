@@ -1,5 +1,3 @@
-package Modelo;
-
 public class Projetor {
     private String nome;
     private String codigo;

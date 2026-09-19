@@ -1,5 +1,3 @@
-package Modelo;
-
 public class Professor extends Usuario {
 
 

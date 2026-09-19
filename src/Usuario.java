@@ -1,7 +1,3 @@
-package Modelo;
-
-import Classes.FactoryUsuario;
-
 public abstract class Usuario {
     private String nome;
     private int matricula;

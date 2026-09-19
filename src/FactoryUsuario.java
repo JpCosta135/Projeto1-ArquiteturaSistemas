@@ -1,9 +1,3 @@
-package Classes;
-
-import Modelo.Atendente;
-import Modelo.Professor;
-import Modelo.Usuario;
-
 public class FactoryUsuario {
 
     public Usuario createUsuario(int tipo,String nome,int matricula,String senha) {

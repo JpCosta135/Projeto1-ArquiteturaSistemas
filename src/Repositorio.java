@@ -1,10 +1,3 @@
-package Classes;
-
-import Modelo.Atendente;
-import Modelo.Professor;
-import Modelo.Projetor;
-import Modelo.Usuario;
-
 import java.util.Hashtable;
 
 public class Repositorio {
