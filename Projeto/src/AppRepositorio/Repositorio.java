@@ -54,7 +54,7 @@ public class Repositorio {
         inventario.remove(codigo);
     }
 
-    public void removerUsuario(String matricula) {
+    public void removerUsuario(int matricula) {
         usuarios.remove(matricula);
     }
 
