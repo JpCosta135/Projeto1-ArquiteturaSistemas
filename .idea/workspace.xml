@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/Aplicacao.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
