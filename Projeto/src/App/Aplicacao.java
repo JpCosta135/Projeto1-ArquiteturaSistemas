@@ -2,6 +2,7 @@ import Controlador.ControladorAtendente;
 import Controlador.ControladorUsuario;
 import Modelo.Atendente;
 import Modelo.Professor;
+import Modelo.Projetor;
 import Repositorio.Repositorio;
 import Servico.CadastroUsuario;
 
@@ -22,7 +23,11 @@ void main() {
     c3.atualizarUsuario(1890298,"Armando Alves",1890298,"3737hr");
     c3.removerUsuario(1890298);
 
-
+    Projetor p1 = new Projetor("BenQ MS550","PAT-100233",true);
+    c1.realizarCadastroProjetor(p1);
+    System.out.println(c1.lerProjetor("PAT-100233"));
+    c1.atualizarProjetor("PAT-100233","BenQ MS550","PAT-100233",false);
+    c1.removerProjetor("PAT-100233");
 
 
 

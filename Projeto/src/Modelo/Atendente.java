@@ -34,7 +34,6 @@ public class Atendente extends Usuario {
             return false;
         }
     }
-
     public boolean realizarDevolucao(Professor p, Projetor projetor) {
         if (projetor.isDisponivel() == false) {
             projetor.setDisponivel(true);
