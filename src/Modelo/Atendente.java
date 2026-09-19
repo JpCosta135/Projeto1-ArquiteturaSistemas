@@ -29,6 +29,16 @@ public class Atendente extends Usuario {
         }
     }
 
+    public boolean realizarDevolucao(Professor p, Projetor projetor) {
+        if (projetor.isDisponivel() == false) {
+            projetor.setDisponivel(true);
+            p.setProjetor(null);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public void cadastrarProjetor() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite o nome do projetor: ");
