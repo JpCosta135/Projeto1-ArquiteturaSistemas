@@ -4,8 +4,14 @@ public class Professor extends Usuario {
     private Projetor projetor;
 
     public Professor(String nome, int matricula, String senha) {
-        super(nome,matricula,senha);
+        super(nome, matricula, senha);
         this.projetor = null;
+    }
+    public Projetor getProjetor() {
+        return projetor;
+    }
+    public void setProjetor(Projetor projetor) {
+        this.projetor = projetor;
     }
 
     @Override
@@ -18,12 +24,5 @@ public class Professor extends Usuario {
             return false;
         }
     }
-
-    public Projetor getProjetor() {
-        return projetor;
-    }
-
-    public void setProjetor(Projetor projetor) {
-        this.projetor = projetor;
-    }
 }
+
