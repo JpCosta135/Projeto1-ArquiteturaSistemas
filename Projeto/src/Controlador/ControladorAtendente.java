@@ -3,7 +3,7 @@ package Controlador;
 import Modelo.Atendente;
 import Modelo.Professor;
 import Modelo.Projetor;
-import AppRepositorio.Repositorio;
+import Repositorio.Repositorio;
 
 public class ControladorAtendente {
     private Repositorio repositorio;

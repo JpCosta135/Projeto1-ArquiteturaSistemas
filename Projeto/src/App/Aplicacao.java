@@ -2,7 +2,7 @@ import Controlador.ControladorAtendente;
 import Controlador.ControladorUsuario;
 import Modelo.Atendente;
 import Modelo.Professor;
-import AppRepositorio.Repositorio;
+import Repositorio.Repositorio;
 import Servico.CadastroUsuario;
 
 void main() {
