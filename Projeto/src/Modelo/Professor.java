@@ -17,10 +17,10 @@ public class Professor extends Usuario {
     @Override
     public boolean autenticar(String senha) {
         if (senha.equals(this.getSenha())) {
-            System.out.println("Professor autenticado com sucesso");
+            System.out.println("Professor autenticado com sucesso!");
             return true;
         } else {
-            System.out.println("Professor não pode ser autenticado");
+            System.out.println("Professor não pode ser autenticado.");
             return false;
         }
     }
@@ -29,8 +29,10 @@ public class Professor extends Usuario {
         if (this.projetor != null) {
             p.setProjetor(this.projetor);
             setProjetor(null);
+            System.out.println("Permutação Realizada com sucesso!");
             return true;
         } else {
+            System.out.println("Permutação não obteve êxito.");
             return false;
         }
     }

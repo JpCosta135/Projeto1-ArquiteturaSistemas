@@ -24,6 +24,7 @@ public class ControladorUsuario {
     public void realizarPermutacao(Professor professor, Projetor projetor) {
         if (usuario instanceof Professor) {
             ((Professor) usuario).permutarProjetor(professor);
+            this.usuario = professor;
         } else {
             System.out.println("Usuário não possui permissão para realizar permutação");
         }

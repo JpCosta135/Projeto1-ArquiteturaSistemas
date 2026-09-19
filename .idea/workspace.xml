@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Elaboração do CRUD de projetores na classe Atendente">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/Repositorio.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="refatoração da classe App">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +123,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adicionado metodo de autenticação na classe Usuario" />
-    <MESSAGE value="Projetor Adicionado" />
     <MESSAGE value="Refatoração das classes aplicação,CadastroUsuario e FactoryUsuario" />
     <MESSAGE value="classe repositório renomeada" />
     <MESSAGE value="método cadastrarProjetor adicionado na classe CadastroProjetor" />
@@ -147,7 +146,9 @@
     <MESSAGE value="refatoração do metodo realizarPermutacao" />
     <MESSAGE value="Refatoração da classe Atendente" />
     <MESSAGE value="Elaboração do CRUD de projetores na classe Atendente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Elaboração do CRUD de projetores na classe Atendente" />
+    <MESSAGE value="refatoração da classe Repositorio" />
+    <MESSAGE value="refatoração da classe App" />
+    <option name="LAST_COMMIT_MESSAGE" value="refatoração da classe App" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

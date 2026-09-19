@@ -13,7 +13,7 @@ void main() {
     c1.realizarEmprestimo((Professor)(repositorio.getUsuario(2097453)),repositorio.getProjetor("PAT-100235"));
     c2.realizarPermutacao((Professor)(repositorio.getUsuario(2234566)),repositorio.getProjetor("PAT-100235"));
     c1.realizarDevolucao((Professor)(repositorio.getUsuario(2234566)),repositorio.getProjetor("PAT-100235"));
-    c2.realizarAutenticacao("dfh435");
+    c2.realizarAutenticacao("ebt325");
 
 
 
