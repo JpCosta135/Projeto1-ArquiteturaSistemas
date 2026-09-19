@@ -1,10 +1,11 @@
 package Modelo;
 
 public class Professor extends Usuario {
-
+    private Projetor projetor;
 
     public Professor(String nome, int matricula, String senha) {
         super(nome,matricula,senha);
+        this.projetor = null;
     }
 
     @Override
@@ -18,6 +19,11 @@ public class Professor extends Usuario {
         }
     }
 
+    public Projetor getProjetor() {
+        return projetor;
+    }
 
-
+    public void setProjetor(Projetor projetor) {
+        this.projetor = projetor;
+    }
 }

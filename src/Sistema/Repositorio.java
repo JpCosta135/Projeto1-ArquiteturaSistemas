@@ -31,11 +31,13 @@ public class Repositorio {
         Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr");
         usuarios.put(u4.getMatricula(),u4);
     }
+
     public Projetor getProjetor(String codigo){
         Projetor projetor;
         projetor = inventario.get(codigo);
         return projetor;
     }
+
     public Usuario getUsuario(int matricula ){
         Usuario usuario;
         usuario =  usuarios.get(matricula);

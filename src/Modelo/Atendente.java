@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Atendente extends Usuario {
 
-
     public Atendente(String nome, int matricula, String senha) {
         super(nome,matricula,senha);
     }
@@ -21,7 +20,13 @@ public class Atendente extends Usuario {
     }
 
     public boolean realizarEmprestimo(Professor p, Projetor projetor)  {
-        return true;
+        if (projetor.isDisponivel()) {
+            projetor.setDisponivel(false);
+            p.setProjetor(projetor);
+            return true;
+        }  else {
+            return false;
+        }
     }
 
     public void cadastrarProjetor() {
