@@ -1,8 +1,8 @@
+import Controlador.ControladorAtendente;
+import Controlador.ControladorUsuario;
 import Modelo.Atendente;
 import Modelo.Professor;
-import Sistema.ControladorAtendente;
-import Sistema.ControladorUsuario;
-import Sistema.Repositorio;
+import Repositorio.Repositorio;
 
 void main() {
 

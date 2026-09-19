@@ -1,8 +1,9 @@
-package Sistema;
+package Controlador;
 
 import Modelo.Atendente;
 import Modelo.Professor;
 import Modelo.Projetor;
+import Repositorio.Repositorio;
 
 public class ControladorAtendente {
     private Repositorio repositorio;
@@ -17,7 +18,7 @@ public class ControladorAtendente {
         atendente.realizarEmprestimo(professor, projetor);
     }
 
-    public void realizarDevolucao(Professor professor, Projetor  projetor){
+    public void realizarDevolucao(Professor professor, Projetor projetor){
         atendente.realizarDevolucao(professor, projetor);
     }
 
@@ -25,9 +26,13 @@ public class ControladorAtendente {
         atendente.cadastrarProjetor();
     }
 
-    public void atualizarProjetor() {
+    public void atualizarProjetor(String codigo,String nome,String codigoNovo,boolean estado) {
+        atendente.atualizarProjetor(codigo,nome,codigoNovo,estado);
+    }
 
-     }
+    public void realizarAutenticacao(String senha) {
+        atendente.autenticar(senha);
+    }
 
 
 

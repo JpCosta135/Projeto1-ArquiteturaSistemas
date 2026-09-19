@@ -1,8 +1,10 @@
-package Sistema;
+package Controlador;
 
 import Modelo.Professor;
 import Modelo.Projetor;
 import Modelo.Usuario;
+import Repositorio.Repositorio;
+import Servico.CadastroUsuario;
 
 public class ControladorUsuario {
     private Repositorio repositorio;
@@ -14,7 +16,7 @@ public class ControladorUsuario {
     }
 
     public void realizarCadastro(byte tipo,String nome, int matricula,String senha) {
-        usuario.efetuarCadastro(tipo,nome,matricula,senha);
+        CadastroUsuario.efetuarCadastro(tipo,nome,matricula,senha);
     }
 
     public void realizarAutenticacao(String senha) {

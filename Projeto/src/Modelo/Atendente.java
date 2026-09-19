@@ -1,5 +1,7 @@
 package Modelo;
-import Sistema.Repositorio;
+
+import Repositorio.Repositorio;
+
 import java.util.Scanner;
 
 public class Atendente extends Usuario {
@@ -13,10 +15,10 @@ public class Atendente extends Usuario {
     @Override
     public boolean autenticar(String senha) {
         if (senha.equals(this.getSenha())) {
-            System.out.println("Atendente autenticado com sucesso");
+            System.out.println("Modelo.Atendente autenticado com sucesso");
             return true;
         } else {
-            System.out.println("Atendente não pode ser autenticado");
+            System.out.println("Modelo.Atendente não pode ser autenticado");
             return false;
         }
     }

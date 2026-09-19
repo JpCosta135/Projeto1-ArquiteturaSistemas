@@ -1,4 +1,4 @@
-package Sistema;
+package Repositorio;
 
 import Modelo.Atendente;
 import Modelo.Professor;
