@@ -1,11 +1,15 @@
 package Modelo;
 
+import Sistema.Repositorio;
+
 import java.util.Scanner;
 
 public class Atendente extends Usuario {
+    private Repositorio repositorio;
 
     public Atendente(String nome, int matricula, String senha) {
         super(nome,matricula,senha);
+        this.repositorio = null;
     }
 
     @Override
@@ -52,6 +56,14 @@ public class Atendente extends Usuario {
 
     public void removerProjetor(String codigo) {
 
+    }
+
+    public void atualizarProjetor(String nome, int matricula, String senha) {
+
+    }
+
+    public Projetor getProjetor() {
+        return null;
     }
 
 }

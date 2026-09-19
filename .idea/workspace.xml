@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Sistema/ControladorUsuario.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="refatoração do metodo realizarPermutacao">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +107,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Organização das classes por pacotes" />
     <MESSAGE value="Adicionado classe abstrata usuario e refatoração do inventario" />
     <MESSAGE value="adicionado usuarios exemplo no inventário" />
     <MESSAGE value="adicionado metodo de autenticação na classe Usuario" />
@@ -132,7 +131,8 @@
     <MESSAGE value="Refatoração" />
     <MESSAGE value="adicionado metodo permutarProjetor" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="refatoração do metodo realizarPermutacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="refatoração do metodo realizarPermutacao" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
