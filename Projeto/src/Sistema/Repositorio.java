@@ -50,4 +50,8 @@ public class Repositorio {
         inventario.get(codigo).setCodigo(codigoNovo);
     }
 
+    public void removeProjetor(String codigo) {
+        inventario.remove(codigo);
+    }
+
 }

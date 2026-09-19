@@ -1,7 +1,5 @@
 package Modelo;
-
 import Sistema.Repositorio;
-
 import java.util.Scanner;
 
 public class Atendente extends Usuario {
@@ -55,15 +53,15 @@ public class Atendente extends Usuario {
     }
 
     public void removerProjetor(String codigo) {
-
+        repositorio.removeProjetor(codigo);
     }
 
-    public void atualizarProjetor(String nome, int matricula, String senha) {
-
+    public void atualizarProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
+        repositorio.setProjetor(codigo,nome,codigoNovo,estado);
     }
 
-    public Projetor getProjetor() {
-        return null;
+    public Projetor getProjetor(String codigo) {
+       return repositorio.getProjetor(codigo);
     }
 
 }
