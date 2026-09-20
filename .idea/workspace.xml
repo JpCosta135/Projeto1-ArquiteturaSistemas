@@ -144,9 +144,9 @@
     <MESSAGE value="Refatoração das classes Aplicação e CadastroUsuario" />
     <MESSAGE value="Refatoração dos métodos CRUD" />
     <MESSAGE value="Adicionado CRUD de projetores na classe Principal(App)" />
-    <MESSAGE value="-" />
     <MESSAGE value="Refatoração da classe Aplicação" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração da classe Aplicação" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
