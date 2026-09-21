@@ -1,5 +1,7 @@
 package Modelo;
 
+import Servico.Notificador;
+
 public class Professor extends Usuario implements Notificador {
     private Projetor projetor;
 

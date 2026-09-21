@@ -1,4 +1,4 @@
-package Modelo;
+package Servico;
 
 public interface Notificador {
 

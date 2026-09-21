@@ -1,4 +1,4 @@
-package Modelo;
+package Servico;
 
 public class NotificacaoDecorator implements Notificador {
     private final Notificador operacaoOriginal;

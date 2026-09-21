@@ -1,8 +1,9 @@
 package Modelo;
 import Repositorio.Repositorio;
+import Servico.Notificador;
 
 
-public class Atendente extends Usuario implements Notificador{
+public class Atendente extends Usuario implements Notificador {
     private Repositorio repositorio;
 
     public Atendente(String nome, int matricula, String senha, Repositorio repositorio) {
