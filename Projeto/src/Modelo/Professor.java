@@ -1,6 +1,6 @@
 package Modelo;
 
-public class Professor extends Usuario {
+public class Professor extends Usuario implements Notificador {
     private Projetor projetor;
 
     public Professor(String nome, int matricula, String senha) {
@@ -35,6 +35,11 @@ public class Professor extends Usuario {
             System.out.println("Permutação não obteve êxito.");
             return false;
         }
+    }
+
+    @Override
+    public void enviar(String mensagem) {
+        System.out.println("Processando permutação para o item" + projetor.getNome());
     }
 
     @Override

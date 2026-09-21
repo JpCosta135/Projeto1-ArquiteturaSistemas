@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração da classe Aplicaçao" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Projeto/src/Modelo/NotificacaoDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -121,7 +128,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refatoração do metodo realizarPermutacao" />
     <MESSAGE value="Refatoração da classe Atendente" />
     <MESSAGE value="Elaboração do CRUD de projetores na classe Atendente" />
     <MESSAGE value="refatoração da classe Repositorio" />
@@ -146,7 +152,8 @@
     <MESSAGE value="Refatoração do método toString" />
     <MESSAGE value="-" />
     <MESSAGE value="Refatoração da classe Aplicaçao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração da classe Aplicaçao" />
+    <MESSAGE value="Adição da interface Notificador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adição da interface Notificador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

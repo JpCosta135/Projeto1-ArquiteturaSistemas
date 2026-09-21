@@ -1,10 +1,8 @@
 package Modelo;
-
 import Repositorio.Repositorio;
 
-import java.util.Scanner;
 
-public class Atendente extends Usuario {
+public class Atendente extends Usuario implements Notificador{
     private Repositorio repositorio;
 
     public Atendente(String nome, int matricula, String senha, Repositorio repositorio) {
@@ -57,6 +55,11 @@ public class Atendente extends Usuario {
     }
     public Projetor getProjetor(String codigo) {
        return repositorio.getProjetor(codigo);
+    }
+
+    @Override
+    public void enviar(String mensagem) {
+
     }
 
     @Override
