@@ -61,8 +61,6 @@ public class Atendente extends Usuario {
 
     @Override
     public String toString() {
-        return super.toString()+ " Atendente{" +
-                "repositorio=" + repositorio +
-                '}';
+        return super.toString()+ " Atendente ";
     }
 }
