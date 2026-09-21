@@ -1,8 +1,6 @@
 package Modelo;
 
-import Servico.Notificador;
-
-public class Professor extends Usuario implements Notificador {
+public class Professor extends Usuario {
     private Projetor projetor;
 
     public Professor(String nome, int matricula, String senha) {
@@ -39,10 +37,6 @@ public class Professor extends Usuario implements Notificador {
         }
     }
 
-    @Override
-    public void enviar(String mensagem) {
-        System.out.println("Processando permutação para o item" + projetor.getNome());
-    }
 
     @Override
     public String toString() {

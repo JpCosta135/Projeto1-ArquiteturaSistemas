@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Projeto/src/Modelo/NotificacaoDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refatoração da classe Atendente" />
     <MESSAGE value="Elaboração do CRUD de projetores na classe Atendente" />
     <MESSAGE value="refatoração da classe Repositorio" />
     <MESSAGE value="refatoração da classe App" />
@@ -139,7 +135,6 @@
     <MESSAGE value="Refatoração do Repositorio" />
     <MESSAGE value="Refatoração da classe App" />
     <MESSAGE value="Refatoração da classe CadastroUsuario" />
-    <MESSAGE value="Reorganização das pastas" />
     <MESSAGE value="Refatoração" />
     <MESSAGE value="Refatoração do método atualizarUsuario" />
     <MESSAGE value="Reorganização dos pacotes" />
@@ -153,7 +148,9 @@
     <MESSAGE value="-" />
     <MESSAGE value="Refatoração da classe Aplicaçao" />
     <MESSAGE value="Adição da interface Notificador" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adição da interface Notificador" />
+    <MESSAGE value="Refatoração de classes Notificadores e Decorator" />
+    <MESSAGE value="Reorganização das pastas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reorganização das pastas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
