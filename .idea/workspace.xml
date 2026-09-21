@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Exclusão do padrão Decorator">
+      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +124,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Elaboração do CRUD de projetores na classe Atendente" />
     <MESSAGE value="refatoração da classe Repositorio" />
     <MESSAGE value="refatoração da classe App" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Permutação e Devolução" />
@@ -150,7 +148,8 @@
     <MESSAGE value="Adição da interface Notificador" />
     <MESSAGE value="Refatoração de classes Notificadores e Decorator" />
     <MESSAGE value="Reorganização das pastas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reorganização das pastas" />
+    <MESSAGE value="Exclusão do padrão Decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exclusão do padrão Decorator" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

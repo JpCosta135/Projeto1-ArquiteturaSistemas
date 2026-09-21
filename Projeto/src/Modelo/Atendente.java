@@ -20,7 +20,6 @@ public class Atendente extends Usuario {
             return false;
         }
     }
-
     public boolean realizarEmprestimo(Professor p, Projetor projetor)  {
         if (projetor.isDisponivel()) {
             projetor.setDisponivel(false);
