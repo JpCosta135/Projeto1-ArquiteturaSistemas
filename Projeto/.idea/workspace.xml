@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +131,6 @@
     <MESSAGE value="Refatoração do Repositorio" />
     <MESSAGE value="Refatoração da classe App" />
     <MESSAGE value="Refatoração da classe CadastroUsuario" />
-    <MESSAGE value="Refatoração" />
     <MESSAGE value="Refatoração do método atualizarUsuario" />
     <MESSAGE value="Reorganização dos pacotes" />
     <MESSAGE value="Refatoração das classes Aplicação e CadastroUsuario" />
@@ -150,7 +146,8 @@
     <MESSAGE value="Reorganização das pastas" />
     <MESSAGE value="Exclusão do padrão Decorator" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="Refatoração" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
