@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="adicionado comentários na classe Aplicacao" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,9 +146,9 @@
     <MESSAGE value="Refatoração dos métodos CRUD" />
     <MESSAGE value="Adicionado CRUD de projetores na classe Principal(App)" />
     <MESSAGE value="Refatoração da classe Aplicação" />
-    <MESSAGE value="-" />
     <MESSAGE value="adicionado comentários na classe Aplicacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="adicionado comentários na classe Aplicacao" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
