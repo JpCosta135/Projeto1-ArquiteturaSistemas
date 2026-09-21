@@ -56,10 +56,9 @@ public class Atendente extends Usuario {
        return repositorio.getProjetor(codigo);
     }
 
-
-
     @Override
     public String toString() {
         return super.toString()+ " Atendente ";
     }
+
 }
