@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração dos métodos toString" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração do método toString" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,7 +121,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Elaboração da classe app e adição do metodo removerProjetor na classe Atendente" />
     <MESSAGE value="adicionado metodo permutarProjetor" />
     <MESSAGE value="refatoração do metodo realizarPermutacao" />
     <MESSAGE value="Refatoração da classe Atendente" />
@@ -146,7 +145,8 @@
     <MESSAGE value="adicionado comentários na classe Aplicacao" />
     <MESSAGE value="-" />
     <MESSAGE value="Refatoração dos métodos toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração dos métodos toString" />
+    <MESSAGE value="Refatoração do método toString" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração do método toString" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
