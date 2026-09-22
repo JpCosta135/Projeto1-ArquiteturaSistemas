@@ -32,9 +32,7 @@ public abstract class Usuario {
     public final void autenticar(String senha){
         System.out.println("iniciando autenticação para: "+nome);
         carregarPermissoes(senha);
-        System.out.println("Autenticação realizada com sucesso!");
     }
-
     public abstract boolean carregarPermissoes(String senha);
 
     @Override
