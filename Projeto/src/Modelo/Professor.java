@@ -17,10 +17,10 @@ public class Professor extends Usuario {
     @Override
     public boolean carregarPermissoes(String senha) {
         if (senha.equals(this.getSenha())) {
-            System.out.println("Professor autenticado com sucesso!");
+            System.out.println("Professor "+getNome()+" autenticado com sucesso!");
             return true;
         } else {
-            System.out.println("Professor não pode ser autenticado.");
+            System.out.println("Professor "+getNome()+" não pode ser autenticado.");
             return false;
         }
     }
