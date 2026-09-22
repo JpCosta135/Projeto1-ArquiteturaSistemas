@@ -25,11 +25,7 @@ void main() {
    c3.atualizarUsuario(1943675, "Caio Ferreira", 1943675, "en3tb");
    c3.removerUsuario(1943675); //  CRUD de atendentes
 
-   Projetor p1 = new Projetor.Builder()
-           .nome("BenQ MS550")
-           .codigo("PAT-100233")
-            .estadoInicial(EstadoProjetor.DISPONIVEL)
-           .build();
+   Projetor p1 = new Projetor("BenQ MS550","PAT-100233",true);
    c1.realizarCadastroProjetor(p1);
    System.out.println(c1.lerProjetor("PAT-100233"));
    c1.atualizarProjetor("PAT-100233", "BenQ MS550", "PAT-100233", false);
