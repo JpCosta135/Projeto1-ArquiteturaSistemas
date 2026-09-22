@@ -11,7 +11,7 @@ public class Atendente extends Usuario {
     }
 
     @Override
-    public boolean autenticar(String senha) {
+    public boolean carregarPermissoes(String senha) {
         if (senha.equals(this.getSenha())) {
             System.out.println("Modelo.Atendente autenticado com sucesso");
             return true;
