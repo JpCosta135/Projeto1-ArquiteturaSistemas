@@ -3,12 +3,12 @@ package Modelo;
 public class Projetor {
     private String nome;
     private String codigo;
-    private boolean estado;
+    private boolean disponivel;
 
     public Projetor(String nome,String codigo,boolean estado) {
         this.nome = nome;
         this.codigo = codigo;
-        this.estado = estado;
+        this.disponivel = estado;
     }
     public String getNome() {
         return nome;
@@ -22,15 +22,15 @@ public class Projetor {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
-    public boolean isEstado() {
-        return estado;
+    public boolean isDisponivel() {
+        return disponivel;
     }
-    public void setEstado(boolean estado) {
-        this.estado = estado;
+    public void setDisponivel(boolean disponivel) {
+        this.disponivel = disponivel;
     }
 
     public String toString() {
-        return "nome:"+ nome + " codigo:" + codigo + " estado: " + estado;
+        return "nome:"+ nome + " codigo:" + codigo + " disponivel: " + disponivel;
     }
 
 

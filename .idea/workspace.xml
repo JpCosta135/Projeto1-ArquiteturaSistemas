@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Adicionado padrões GOF State e Refatoração do padrão Builder">
-      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +74,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/costa/IdeaProjects/Projeto1-ArquiteturaSistemas/src/Main.java",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
@@ -84,12 +84,6 @@
     <configuration name="Aplicacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Aplicacao" />
-      <module name="Projeto1-ArquiteturaSistemas" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
       <module name="Projeto1-ArquiteturaSistemas" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,8 +128,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Refatoração do Repositorio" />
-    <MESSAGE value="Refatoração da classe App" />
     <MESSAGE value="Refatoração do método atualizarUsuario" />
     <MESSAGE value="Reorganização dos pacotes" />
     <MESSAGE value="Refatoração das classes Aplicação e CadastroUsuario" />
@@ -159,7 +151,9 @@
     <MESSAGE value="Refatoração da classe Aplicacao" />
     <MESSAGE value="adicionado padrão GOF Builder na classe Projetor" />
     <MESSAGE value="Adicionado padrões GOF State e Refatoração do padrão Builder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionado padrões GOF State e Refatoração do padrão Builder" />
+    <MESSAGE value="Refatoração do padrão Builder" />
+    <MESSAGE value="Remoção dos padrões Builder e State" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remoção dos padrões Builder e State" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
