@@ -4,9 +4,9 @@ import Modelo.*;
 import Repositorio.Repositorio;
 import Servico.CadastroUsuario;
 
-void main() {
+ void main() {
 
-    Repositorio repositorio = new Repositorio();
+    Repositorio repositorio = Repositorio.getInstancia();
     ControladorAtendente c1 = new ControladorAtendente(repositorio,(Atendente)repositorio.getUsuario(2345786));
     ControladorUsuario c2 = new ControladorUsuario(repositorio,repositorio.getUsuario(2097453));
     CadastroUsuario c3 = new CadastroUsuario(repositorio);
@@ -30,8 +30,6 @@ void main() {
     System.out.println(c3.lerUsuario(1943675));
     c3.atualizarUsuario(1943675,"Caio Ferreira",1943675,"en3tb");
     c3.removerUsuario(1943675); // CRUD de atendentes
-
-
 
 
 }

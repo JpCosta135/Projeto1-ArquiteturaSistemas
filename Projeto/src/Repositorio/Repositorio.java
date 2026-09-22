@@ -8,8 +8,9 @@ import java.util.Hashtable;
 public class Repositorio {
     private Hashtable <String, Projetor> inventario;
     private Hashtable <Integer, Usuario> usuarios;
+    private static Repositorio instancia = null;
 
-    public Repositorio() {
+    private Repositorio() {
         inventario = new Hashtable<>();
         Projetor p1 = new Projetor("Epson PowerLite X49","PAT-100231",true);
         inventario.put(p1.getCodigo(),p1);
@@ -28,6 +29,13 @@ public class Repositorio {
         usuarios.put(u3.getMatricula(),u3);
         Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr",this);
         usuarios.put(u4.getMatricula(),u4);
+    }
+
+    public static synchronized Repositorio getInstancia() {
+        if (instancia == null) {
+            instancia = new Repositorio();
+        }
+        return instancia;
     }
 
     public void adicionarProjetor(Projetor p) {
