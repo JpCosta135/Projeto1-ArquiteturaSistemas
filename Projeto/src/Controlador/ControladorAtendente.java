@@ -25,16 +25,16 @@ public class ControladorAtendente {
     }
 
     public void realizarCadastroProjetor(Projetor p){
-        atendente.cadastrarProjetor(p);
+       repositorio.adicionarProjetor(p);
     }
     public void atualizarProjetor(String codigo,String nome,String codigoNovo,boolean estado) {
-        atendente.atualizarProjetor(codigo,nome,codigoNovo,estado);
+        repositorio.setProjetor(codigo,nome,codigoNovo,estado);
     }
     public void removerProjetor(String codigo){
-        atendente.removerProjetor(codigo);
+        repositorio.removerProjetor(codigo);
     }
     public Projetor lerProjetor(String codigo) {
-        return atendente.getProjetor(codigo);
+        return repositorio.getProjetor(codigo);
     }
 
 

@@ -3,11 +3,10 @@ import Repositorio.Repositorio;
 
 
 public class Atendente extends Usuario {
-    private Repositorio repositorio;
 
-    public Atendente(String nome, int matricula, String senha, Repositorio repositorio) {
+
+    public Atendente(String nome, int matricula, String senha) {
         super(nome,matricula,senha);
-        this.repositorio = repositorio;
     }
 
     @Override
@@ -41,19 +40,6 @@ public class Atendente extends Usuario {
             System.out.println("Devolução não obteve êxito.");
             return false;
         }
-    }
-
-    public void cadastrarProjetor(Projetor p) {
-        repositorio.adicionarProjetor(p);
-    }
-    public void removerProjetor(String codigo) {
-        repositorio.removerProjetor(codigo);
-    }
-    public void atualizarProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
-        repositorio.setProjetor(codigo,nome,codigoNovo,estado);
-    }
-    public Projetor getProjetor(String codigo) {
-       return repositorio.getProjetor(codigo);
     }
 
     @Override
