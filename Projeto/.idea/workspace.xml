@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="Refatoração do método autenticar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +57,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;Application.Aplicacao.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -71,9 +74,10 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/costa/IdeaProjects/Projeto1-ArquiteturaSistemas/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RunManager">
@@ -124,15 +128,12 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="refatoração da classe Repositorio" />
-    <MESSAGE value="refatoração da classe App" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Permutação e Devolução" />
     <MESSAGE value="Refatoração dos métodos de Empréstimo,Devolução e Permutação" />
     <MESSAGE value="Reorganização por pacotes e adição do CRUD de usuários" />
     <MESSAGE value="Elaboração do CRUD de usuários" />
     <MESSAGE value="Refatoração do Repositorio" />
     <MESSAGE value="Refatoração da classe App" />
-    <MESSAGE value="Refatoração da classe CadastroUsuario" />
     <MESSAGE value="Refatoração do método atualizarUsuario" />
     <MESSAGE value="Reorganização dos pacotes" />
     <MESSAGE value="Refatoração das classes Aplicação e CadastroUsuario" />
@@ -148,8 +149,11 @@
     <MESSAGE value="Reorganização das pastas" />
     <MESSAGE value="Exclusão do padrão Decorator" />
     <MESSAGE value="Refatoração" />
+    <MESSAGE value="Refatoração da classe CadastroUsuario" />
     <MESSAGE value="-" />
-    <option name="LAST_COMMIT_MESSAGE" value="-" />
+    <MESSAGE value="Adição do padrão GOF Template Method" />
+    <MESSAGE value="Refatoração do método autenticar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refatoração do método autenticar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -159,7 +163,21 @@
           <line>10</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
