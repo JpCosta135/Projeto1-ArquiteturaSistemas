@@ -6,8 +6,9 @@ import Modelo.Usuario;
 import Repositorio.Repositorio;
 
 public class FactoryUsuario {
+    private Repositorio repositorio;
 
-    public Usuario createUsuario(byte tipo, String nome, int matricula, String senha,Repositorio repositorio) {
+    public Usuario createUsuario(byte tipo, String nome, int matricula, String senha) {
         if (tipo != 1 && tipo != 2 ) {
             System.out.println("Tipo invalido, informe o valor 1 ou 2");
         }
@@ -15,7 +16,7 @@ public class FactoryUsuario {
         if (tipo == 1) {
                 usuario = new Professor(nome,matricula,senha);
         } else {
-                usuario = new Atendente(nome,matricula,senha,repositorio);
+                usuario = new Atendente(nome,matricula,senha,this.repositorio);
         }
         return usuario;
 
