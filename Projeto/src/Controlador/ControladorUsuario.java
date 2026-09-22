@@ -15,8 +15,8 @@ public class ControladorUsuario {
         this.usuario = usuario;
     }
 
-    public void realizarCadastro(byte tipo,String nome, int matricula,String senha,CadastroUsuario cadastro,Repositorio repositorio) {
-        cadastro.efetuarCadastro(tipo,nome,matricula,senha, repositorio);
+    public void realizarCadastro(byte tipo,String nome, int matricula,String senha,CadastroUsuario cadastro) {
+        cadastro.efetuarCadastro(tipo,nome,matricula,senha);
     }
 
     public void realizarAutenticacao(String senha) {

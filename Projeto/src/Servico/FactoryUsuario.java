@@ -16,7 +16,7 @@ public class FactoryUsuario {
         if (tipo == 1) {
                 usuario = new Professor(nome,matricula,senha);
         } else {
-                usuario = new Atendente(nome,matricula,senha,this.repositorio);
+                usuario = new Atendente(nome,matricula,senha);
         }
         return usuario;
 

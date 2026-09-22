@@ -25,9 +25,9 @@ public class Repositorio {
         usuarios.put(u1.getMatricula(),u1);
         Usuario u2 = new Professor("Joao Silva",2234566,"ebt325");
         usuarios.put(u2.getMatricula(),u2);
-        Usuario u3 = new Atendente("Joaquim Bezerra",2345786,"wteb43",this);
+        Usuario u3 = new Atendente("Joaquim Bezerra",2345786,"wteb43");
         usuarios.put(u3.getMatricula(),u3);
-        Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr",this);
+        Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr");
         usuarios.put(u4.getMatricula(),u4);
     }
 
