@@ -11,9 +11,9 @@ public static void main(String[] args) {
    ControladorAtendente c1 = new ControladorAtendente(repositorio, (Modelo.Atendente) repositorio.getUsuario(2345786));
    ControladorUsuario c2 = new ControladorUsuario(repositorio, repositorio.getUsuario(2097453));
    CadastroUsuario c3 = new CadastroUsuario(repositorio);
-   c1.realizarEmprestimo((Modelo.Professor) (repositorio.getUsuario(2097453)), repositorio.getProjetor("PAT-100235"));
-   c2.realizarPermutacao((Modelo.Professor) (repositorio.getUsuario(2234566)), repositorio.getProjetor("PAT-100235"));
-   c1.realizarDevolucao((Modelo.Professor) (repositorio.getUsuario(2234566)), repositorio.getProjetor("PAT-100235"));
+   c1.realizarEmprestimo((Professor) (repositorio.getUsuario(2097453)), repositorio.getProjetor("PAT-100235"));
+   c2.realizarPermutacao((Professor) (repositorio.getUsuario(2234566)), repositorio.getProjetor("PAT-100235"));
+   c1.realizarDevolucao((Professor) (repositorio.getUsuario(2234566)), repositorio.getProjetor("PAT-100235"));
    c2.realizarAutenticacao("ebt325"); // Instanciação dos objetos e operações básicas do sistema
 
    c3.efetuarCadastro((byte) 1, "Armando Alves", 1890298, "dfjo23");
