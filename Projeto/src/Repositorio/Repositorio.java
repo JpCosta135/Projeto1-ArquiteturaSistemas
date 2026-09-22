@@ -30,6 +30,7 @@ public class Repositorio {
         Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr",this);
         usuarios.put(u4.getMatricula(),u4);
     }
+
     public static synchronized Repositorio getInstancia() {
         if (instancia == null) {
             instancia = new Repositorio();
@@ -46,9 +47,14 @@ public class Repositorio {
         return projetor;
     }
     public void setProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
-        inventario.get(codigo).setNome(nome);
-        inventario.get(codigo).setDisponivel(estado);
-        inventario.get(codigo).setCodigo(codigoNovo);
+        Projetor p =
+        inventario.remove(codigo);
+        if (p != null) {
+            inventario.get(codigo).setNome(nome);
+            inventario.get(codigo).setDisponivel(estado);
+            inventario.get(codigo).setCodigo(codigoNovo);
+            inventario.put(codigo, p);
+        }
     }
     public void removerProjetor(String codigo) {
         inventario.remove(codigo);
@@ -66,9 +72,14 @@ public class Repositorio {
         usuarios.remove(matricula);
     }
     public void setUsuario(int matricula,String nome, int matriculaNova,String senha) {
-        usuarios.get(matricula).setNome(nome);
-        usuarios.get(matricula).setSenha(senha);
-        usuarios.get(matricula).setMatricula(matriculaNova);
+        Usuario u =
+        usuarios.remove(matricula);
+                if (u != null) {
+                    usuarios.get(matricula).setNome(nome);
+                    usuarios.get(matricula).setSenha(senha);
+                    usuarios.get(matricula).setMatricula(matriculaNova);
+                    usuarios.put(matriculaNova, u);
+                }
     }
 
 }
