@@ -5,7 +5,7 @@ import Servico.CadastroUsuario;
 import Modelo.*;
 
 
-void main() {
+public static void main(String[] args) {
 
    Repositorio repositorio = Repositorio.getInstancia();
    ControladorAtendente c1 = new ControladorAtendente(repositorio, (Modelo.Atendente) repositorio.getUsuario(2345786));
