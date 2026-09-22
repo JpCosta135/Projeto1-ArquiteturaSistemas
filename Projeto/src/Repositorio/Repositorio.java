@@ -6,29 +6,29 @@ import Modelo.Usuario;
 import java.util.Hashtable;
 
 public class Repositorio {
-    private Hashtable <String, Projetor> inventario;
-    private Hashtable <Integer, Usuario> usuarios;
+    private Hashtable<String, Projetor> inventario;
+    private Hashtable<Integer, Usuario> usuarios;
     private static Repositorio instancia = null;
 
     private Repositorio() {
         inventario = new Hashtable<>();
-        Projetor p1 = new Projetor("Epson PowerLite X49","PAT-100231",true);
-        inventario.put(p1.getCodigo(),p1);
-        Projetor p2 = new Projetor("BenQ MS550","PAT-100233",false);
-        inventario.put(p2.getCodigo(),p2);
-        Projetor p3 = new Projetor("ViewSonic PA503S","PAT-100235",true);
-        inventario.put(p3.getCodigo(),p3);
-        Projetor p4 = new Projetor("Epson PowerLite X05","PAT-100237",false);
+        Projetor p1 = new Projetor("Epson PowerLite X49", "PAT-100231", true);
+        inventario.put(p1.getCodigo(), p1);
+        Projetor p2 = new Projetor("BenQ MS550", "PAT-100233", false);
+        inventario.put(p2.getCodigo(), p2);
+        Projetor p3 = new Projetor("ViewSonic PA503S", "PAT-100235", true);
+        inventario.put(p3.getCodigo(), p3);
+        Projetor p4 = new Projetor("Epson PowerLite X05", "PAT-100237", false);
 
         usuarios = new Hashtable<>();
-        Usuario u1 = new Professor("Jose Almeida",2097453,"dfh435");
-        usuarios.put(u1.getMatricula(),u1);
-        Usuario u2 = new Professor("Joao Silva",2234566,"ebt325");
-        usuarios.put(u2.getMatricula(),u2);
-        Usuario u3 = new Atendente("Joaquim Bezerra",2345786,"wteb43");
-        usuarios.put(u3.getMatricula(),u3);
-        Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr");
-        usuarios.put(u4.getMatricula(),u4);
+        Usuario u1 = new Professor("Jose Almeida", 2097453, "dfh435");
+        usuarios.put(u1.getMatricula(), u1);
+        Usuario u2 = new Professor("Joao Silva", 2234566, "ebt325");
+        usuarios.put(u2.getMatricula(), u2);
+        Usuario u3 = new Atendente("Joaquim Bezerra", 2345786, "wteb43");
+        usuarios.put(u3.getMatricula(), u3);
+        Usuario u4 = new Atendente("Maria Campos", 2154608, "5435nr");
+        usuarios.put(u4.getMatricula(), u4);
     }
 
     public static synchronized Repositorio getInstancia() {
@@ -39,47 +39,58 @@ public class Repositorio {
     }
 
     public void adicionarProjetor(Projetor p) {
-        inventario.put(p.getCodigo(),p);
+        inventario.put(p.getCodigo(), p);
     }
-    public Projetor getProjetor(String codigo){
-        Projetor projetor;
-        projetor = inventario.get(codigo);
+
+    public Projetor getProjetor(String codigo) {
+        Projetor projetor = inventario.get(codigo);
         return projetor;
     }
-    public void setProjetor(String codigo,String nome, String codigoNovo, boolean estado) {
-        Projetor p =
-        inventario.remove(codigo);
+
+    public void setProjetor(String codigo, String nome, String codigoNovo, boolean estado) {
+        Projetor p = getProjetor(codigo);
         if (p != null) {
-            inventario.get(codigo).setNome(nome);
-            inventario.get(codigo).setDisponivel(estado);
-            inventario.get(codigo).setCodigo(codigoNovo);
-            inventario.put(codigo, p);
+            p.setNome(nome);
+            p.setDisponivel(estado);
+            if (codigo != codigoNovo) {
+                inventario.remove(codigo);
+                p.setCodigo(codigoNovo);
+                inventario.put(codigoNovo, p);
+            }
+
+
         }
     }
+
     public void removerProjetor(String codigo) {
         inventario.remove(codigo);
     }
 
     public void adicionarUsuario(Usuario u) {
-        usuarios.put(u.getMatricula(),u);
+        usuarios.put(u.getMatricula(), u);
     }
-    public Usuario getUsuario(int matricula ) {
+
+    public Usuario getUsuario(int matricula) {
         Usuario usuario;
         usuario = usuarios.get(matricula);
         return usuario;
     }
+
     public void removerUsuario(int matricula) {
         usuarios.remove(matricula);
     }
-    public void setUsuario(int matricula,String nome, int matriculaNova,String senha) {
-        Usuario u =
-        usuarios.remove(matricula);
-                if (u != null) {
-                    usuarios.get(matricula).setNome(nome);
-                    usuarios.get(matricula).setSenha(senha);
-                    usuarios.get(matricula).setMatricula(matriculaNova);
-                    usuarios.put(matriculaNova, u);
-                }
-    }
 
+    public void setUsuario(int matricula, String nome, int matriculaNova, String senha) {
+        Usuario u = usuarios.get(matricula);
+        if (u != null) {
+            u.setNome(nome);
+            u.setSenha(senha);
+            if (matricula != matriculaNova) {
+                usuarios.remove(matricula);
+                u.setMatricula(matriculaNova);
+                usuarios.put(matriculaNova, u);
+            }
+        }
+
+    }
 }
