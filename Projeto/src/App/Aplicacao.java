@@ -1,8 +1,8 @@
- import Controlador.ControladorAtendente;
+import Controlador.ControladorAtendente;
 import Controlador.ControladorUsuario;
 import Repositorio.Repositorio;
 import Servico.CadastroUsuario;
-import Modelo.Usuario;
+import Modelo.*;
 
 
 void main() {
