@@ -20,16 +20,17 @@ import Servico.CadastroUsuario;
     c3.atualizarUsuario(1890298,"Armando Alves",1890298,"3737hr");
     c3.removerUsuario(1890298); // CRUD de professores
 
+    c3.efetuarCadastro((byte)2,"Caio Ferreira",1943675,"tbrt4",repositorio);
+    System.out.println(c3.lerUsuario(1943675));
+    c3.atualizarUsuario(1943675,"Caio Ferreira",1943675,"en3tb");
+    c3.removerUsuario(1943675); // CRUD de atendentes
+
     Projetor p1 = new Projetor("BenQ MS550","PAT-100233",true);
     c1.realizarCadastroProjetor(p1);
     System.out.println(c1.lerProjetor("PAT-100233"));
     c1.atualizarProjetor("PAT-100233","BenQ MS550","PAT-100233",false);
     c1.removerProjetor("PAT-100233"); // CRUD de projetores
 
-    c3.efetuarCadastro((byte)2,"Caio Ferreira",1943675,"tbrt4",repositorio);
-    System.out.println(c3.lerUsuario(1943675));
-    c3.atualizarUsuario(1943675,"Caio Ferreira",1943675,"en3tb");
-    c3.removerUsuario(1943675); // CRUD de atendentes
 
 
 }

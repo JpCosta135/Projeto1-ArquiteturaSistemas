@@ -30,7 +30,6 @@ public class Repositorio {
         Usuario u4 = new Atendente("Maria Campos",2154608,"5435nr",this);
         usuarios.put(u4.getMatricula(),u4);
     }
-
     public static synchronized Repositorio getInstancia() {
         if (instancia == null) {
             instancia = new Repositorio();
