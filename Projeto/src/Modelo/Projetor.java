@@ -5,10 +5,10 @@ public class Projetor {
     private String codigo;
     private boolean disponivel;
 
-    public Projetor(String nome,String codigo,boolean estado) {
+    public Projetor(String nome,String codigo,boolean disponivel) {
         this.nome = nome;
         this.codigo = codigo;
-        this.disponivel = estado;
+        this.disponivel = disponivel;
     }
     public String getNome() {
         return nome;
