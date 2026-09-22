@@ -3,12 +3,12 @@ package Modelo;
 public class Projetor {
     private String nome;
     private String codigo;
-    private boolean disponivel;
+    private EstadoProjetor estado;
 
     private Projetor(Builder builder) {
         this.nome = builder.nome;
         this.codigo = builder.codigo;
-        this.disponivel = builder.disponivel;
+        this.estado = builder.estado;
     }
     public String getNome() {
         return nome;
@@ -22,20 +22,20 @@ public class Projetor {
     public void setCodigo(String codigo) {
         this.codigo = codigo;
     }
-    public boolean isDisponivel() {
-        return disponivel;
+    public EstadoProjetor getEstado() {
+        return estado;
     }
-    public void setDisponivel(boolean disponivel) {
-        this.disponivel = disponivel;
+    public void setEstado(EstadoProjetor estado) {
+        this.estado = estado;
     }
 
     public String toString() {
-        return "nome:"+ nome + " codigo:" + codigo + " disponivel:" + disponivel;
+        return "nome:"+ nome + " codigo:" + codigo + " estado: " + estado;
     }
     public static class Builder{
         private String nome;
         private String codigo;
-        private boolean disponivel;
+        private EstadoProjetor estado;
 
         public Builder nome(String nome){
             this.nome = nome;
@@ -47,8 +47,8 @@ public class Projetor {
             return this;
         }
 
-        public Builder disponivel(boolean disponivel) {
-            this.disponivel = disponivel;
+        public Builder estadoInicial(EstadoProjetor estado) {
+            this.estado = estado;
             return this;
         }
 
@@ -60,5 +60,7 @@ public class Projetor {
             return new Projetor(this);
         }
     }
+
+
 }
 

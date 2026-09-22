@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="adicionado padrão GOF Builder na classe Projetor">
+      <change afterPath="$PROJECT_DIR$/Projeto/src/Modelo/EstadoProjetor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto1-ArquiteturaSistemas.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -134,7 +134,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Reorganização por pacotes e adição do CRUD de usuários" />
     <MESSAGE value="Elaboração do CRUD de usuários" />
     <MESSAGE value="Refatoração do Repositorio" />
     <MESSAGE value="Refatoração da classe App" />
@@ -159,7 +158,8 @@
     <MESSAGE value="Refatoração do método autenticar" />
     <MESSAGE value="Adicionado padrão GOF singleton ao Repositorio" />
     <MESSAGE value="Refatoração da classe Aplicacao" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração da classe Aplicacao" />
+    <MESSAGE value="adicionado padrão GOF Builder na classe Projetor" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionado padrão GOF Builder na classe Projetor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,6 +178,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>10</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
