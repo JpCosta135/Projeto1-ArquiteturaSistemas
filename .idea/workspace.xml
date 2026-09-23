@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/App/Aplicacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorAtendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controller/ControladorAtendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Controlador/ControladorUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Controller/ControladorUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Atendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Model/Atendente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Professor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Model/Professor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Projetor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Model/Projetor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Modelo/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Repositorio/Repositorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Repository/Repositorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/CadastroUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Service/CadastroUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Projeto/src/Servico/FactoryUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/Projeto/src/Service/FactoryUsuario.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c343c7a-5e3e-466f-aa5a-15d5bf2fb2d0" name="Changes" comment="-" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -159,11 +147,11 @@
     <MESSAGE value="Refatoração do padrão Builder" />
     <MESSAGE value="Remoção dos padrões Builder e State" />
     <MESSAGE value="Refatoração do atributo boolean Disponivel do Projetor" />
-    <MESSAGE value="-" />
     <MESSAGE value="Refatoração" />
     <MESSAGE value="Refatoração do inventário" />
     <MESSAGE value="Refatoração da entidade Atendente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatoração da entidade Atendente" />
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
