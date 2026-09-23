@@ -1,10 +1,10 @@
-package Controlador;
+package Controller;
 
-import Modelo.Professor;
-import Modelo.Projetor;
-import Modelo.Usuario;
-import Repositorio.Repositorio;
-import Servico.CadastroUsuario;
+import Model.Professor;
+import Model.Projetor;
+import Model.Usuario;
+import Repository.Repositorio;
+import Service.CadastroUsuario;
 
 public class ControladorUsuario {
     private Repositorio repositorio;
@@ -15,8 +15,8 @@ public class ControladorUsuario {
         this.usuario = usuario;
     }
 
-    public void realizarCadastro(byte tipo,String nome, int matricula,String senha,CadastroUsuario cadastro,Repositorio repositorio) {
-        cadastro.efetuarCadastro(tipo,nome,matricula,senha, repositorio);
+    public void realizarCadastro(byte tipo,String nome, int matricula,String senha,CadastroUsuario cadastro) {
+        cadastro.efetuarCadastro(tipo,nome,matricula,senha);
     }
 
     public void realizarAutenticacao(String senha) {

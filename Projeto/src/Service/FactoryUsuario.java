@@ -1,9 +1,9 @@
-package Servico;
+package Service;
 
-import Modelo.Atendente;
-import Modelo.Professor;
-import Modelo.Usuario;
-import Repositorio.Repositorio;
+import Model.Atendente;
+import Model.Professor;
+import Model.Usuario;
+import Repository.Repositorio;
 
 public class FactoryUsuario {
     private Repositorio repositorio;
@@ -16,7 +16,7 @@ public class FactoryUsuario {
         if (tipo == 1) {
                 usuario = new Professor(nome,matricula,senha);
         } else {
-                usuario = new Atendente(nome,matricula,senha,this.repositorio);
+                usuario = new Atendente(nome,matricula,senha);
         }
         return usuario;
 

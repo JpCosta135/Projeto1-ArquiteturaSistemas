@@ -1,9 +1,9 @@
-package Controlador;
+package Controller;
 
-import Modelo.Atendente;
-import Modelo.Professor;
-import Modelo.Projetor;
-import Repositorio.Repositorio;
+import Model.Atendente;
+import Model.Professor;
+import Model.Projetor;
+import Repository.Repositorio;
 
 public class ControladorAtendente {
     private Repositorio repositorio;

@@ -1,6 +1,4 @@
-package Modelo;
-import Repositorio.Repositorio;
-
+package Model;
 
 public class Atendente extends Usuario {
 
