@@ -3,8 +3,10 @@ import Controller.ControladorUsuario;
 import Model.*;
 import Repository.Repositorio;
 import Service.CadastroUsuario;
+import java.util.*;
 
-void main() {
+public static void main(String[] args) {
+   Scanner input = new Scanner(System.in);
 
    Repositorio repositorio = Repositorio.getInstancia();
    ControladorAtendente c1 = new ControladorAtendente(repositorio, (Atendente) repositorio.getUsuario(2345786));
